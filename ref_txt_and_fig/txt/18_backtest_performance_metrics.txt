@@ -1,0 +1,7 @@
+来源文件：output/backtest_analysis/portfolio_backtest_performance_metrics.csv
+====================================================================================================
+          Portfolio  Trading Days  Final Net Value  Annual Return  Annual Volatility  Sharpe Ratio  Max Drawdown  Calmar Ratio
+0      Equal Weight           243         1.026906       0.027916           0.126582      0.102037      0.078193      0.357014
+1  Minimum Variance           243         0.933503      -0.068873           0.109101     -0.768767      0.112014     -0.614863
+2       Integer ILP           243         0.920135      -0.082697           0.122584     -0.796978      0.128255     -0.644787
+3    Maximum Sharpe           243         0.920135      -0.082697           0.122584     -0.796978      0.128255     -0.644787

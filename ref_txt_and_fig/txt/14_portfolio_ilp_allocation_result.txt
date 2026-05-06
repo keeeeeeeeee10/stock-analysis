@@ -1,0 +1,8 @@
+来源文件：output/portfolio_ilp_allocation/portfolio_ilp_allocation_result.csv
+====================================================================================================
+             Scenario Solver Status     Ticker  Name  Lots  Shares  Close Price  Investment  Weight  Expected Annual Log Return  Expected Annual Profit  CAPM Beta  Weighted Beta Contribution
+0  Relaxed subset ILP       Optimal  600900.SS  长江电力   676   67600        29.55   1997580.0     1.0                    0.089528           178839.150704   0.247091                    0.247091
+1  Relaxed subset ILP       Optimal  601318.SS  中国平安     0       0        52.65         0.0     0.0                    0.011067                0.000000   1.135858                    0.000000
+2  Relaxed subset ILP       Optimal  600519.SS  贵州茅台     0       0      1524.00         0.0     0.0                   -0.103268               -0.000000   1.003814                    0.000000
+3  Relaxed subset ILP       Optimal  600887.SS  伊利股份     0       0        30.18         0.0     0.0                   -0.103945               -0.000000   0.902670                    0.000000
+4  Relaxed subset ILP       Optimal  600036.SS  招商银行     0       0        39.30         0.0     0.0                   -0.072034               -0.000000   1.011186                    0.000000

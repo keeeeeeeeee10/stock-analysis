@@ -1,0 +1,28 @@
+基于三因子模型的选股报告
+
+训练期：2022-01-01 至 2024-12-31
+三因子数据来源：本地缓存 output/three_factor_selection/fama_french_factors_daily_2022_2025.csv（若未手动替换，首次缓存来自 Ken French 在线日度数据）
+
+一、CAPM 基准回归
+CAPM 使用沪深300日对数收益率作为市场收益率，并用三因子数据中的 RF 构造股票和市场的超额收益。
+CAPM 回归表已输出每只股票的 alpha、beta、t 值、p 值和显著性星号；散点图与回归线见 output/three_factor_selection/capm_scatter_regression_grid.png 以及 output/three_factor_selection/capm_scatter/。
+
+二、Fama-French 三因子回归
+三因子回归以股票超额收益为因变量，以 MKT、SMB、HML 为解释变量，记录 alpha、三个因子暴露、R2、调整 R2 和 alpha p 值。
+alpha 最大的是 长江电力（600900.SS），日 alpha 为 0.0106%，p 值为 0.8139。
+调整 R2 最高的是 宁德时代（300750.SZ），调整 R2 为 0.0032，说明三因子对该股票收益波动的解释力相对更强。
+
+三、选股依据与结果
+选股规则为：先筛选三因子回归中 alpha > 0 且 alpha p < 0.10 的股票，再按 alpha 从大到小选取前 5 支。
+训练期内 alpha 显著的股票数量为 1 支，其中正 alpha 且显著的股票数量为 0 支。
+最终选出的备选资产为：600900.SS、601318.SS、600519.SS、600887.SS、600036.SS。
+
+入选理由：
+说明：当前数据下严格满足“正 alpha 且 p < 0.10”的股票不足 5 支，因此结果表中补入了 alpha 排名靠前的股票，并通过 Selection Rule / Meets Strict Rule 标记其是否严格满足规则。
+- 600900.SS 长江电力：严格满足条件的股票不足 5 支，按 alpha 排名补入；日 alpha=0.0106%，p=0.8139，调整 R2=-0.0025。
+- 601318.SS 中国平安：严格满足条件的股票不足 5 支，按 alpha 排名补入；日 alpha=-0.0072%，p=0.9170，调整 R2=-0.0006。
+- 600519.SS 贵州茅台：严格满足条件的股票不足 5 支，按 alpha 排名补入；日 alpha=-0.0390%，p=0.5392，调整 R2=-0.0000。
+- 600887.SS 伊利股份：严格满足条件的股票不足 5 支，按 alpha 排名补入；日 alpha=-0.0496%，p=0.4118，调整 R2=-0.0035。
+- 600036.SS 招商银行：严格满足条件的股票不足 5 支，按 alpha 排名补入；日 alpha=-0.0625%，p=0.3702，调整 R2=-0.0028。
+
+注意：若你从锐思数据库下载了中国市场三因子日度数据，可将文件放在 output/fama_french_factors_daily_2022_2025.csv 或 data/fama_french_factors_daily.csv，脚本会优先使用本地文件。当前结果的数据来源见本报告开头。

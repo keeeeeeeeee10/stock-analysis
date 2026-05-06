@@ -1,0 +1,21 @@
+Portfolio,Ticker,Name,Weight,Shares
+Integer ILP,600900.SS,长江电力,1.0,67600.0
+Integer ILP,601318.SS,中国平安,0.0,0.0
+Integer ILP,600519.SS,贵州茅台,0.0,0.0
+Integer ILP,600887.SS,伊利股份,0.0,0.0
+Integer ILP,600036.SS,招商银行,0.0,0.0
+Minimum Variance,600900.SS,长江电力,0.6247251053515203,
+Minimum Variance,601318.SS,中国平安,0.0,
+Minimum Variance,600519.SS,贵州茅台,0.1543585087335189,
+Minimum Variance,600887.SS,伊利股份,0.1731691263053436,
+Minimum Variance,600036.SS,招商银行,0.0477472596096172,
+Maximum Sharpe,600900.SS,长江电力,1.0,
+Maximum Sharpe,601318.SS,中国平安,0.0,
+Maximum Sharpe,600519.SS,贵州茅台,0.0,
+Maximum Sharpe,600887.SS,伊利股份,0.0,
+Maximum Sharpe,600036.SS,招商银行,0.0,
+Equal Weight,600900.SS,长江电力,0.2,
+Equal Weight,601318.SS,中国平安,0.2,
+Equal Weight,600519.SS,贵州茅台,0.2,
+Equal Weight,600887.SS,伊利股份,0.2,
+Equal Weight,600036.SS,招商银行,0.2,

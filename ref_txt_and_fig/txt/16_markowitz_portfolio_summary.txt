@@ -1,0 +1,6 @@
+来源文件：output/markowitz_optimization/markowitz_portfolio_summary.csv
+====================================================================================================
+          Portfolio  Expected Annual Return  Annual Volatility  Sharpe Ratio  Risk Free Rate
+0  Minimum Variance                0.018550           0.160314      0.022147           0.015
+1    Maximum Sharpe                0.089528           0.186931      0.398691           0.015
+2      Equal Weight               -0.035731           0.195436     -0.259577           0.015

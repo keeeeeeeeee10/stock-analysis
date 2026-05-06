@@ -1,0 +1,7 @@
+来源文件：output/backtest_analysis/portfolio_backtest_profit_loss_metrics.csv
+====================================================================================================
+          Portfolio  Total Days  Profit Days  Loss Days  Profit Day Ratio  Average Profit  Average Loss Abs  Profit/Loss Ratio
+0  Minimum Variance         243          109        134          0.448560        0.005275          0.004761           1.107788
+1      Equal Weight         243          120        123          0.493827        0.005902          0.005480           1.077060
+2       Integer ILP         243          109        130          0.448560        0.006138          0.005731           1.071003
+3    Maximum Sharpe         243          109        130          0.448560        0.006138          0.005731           1.071003

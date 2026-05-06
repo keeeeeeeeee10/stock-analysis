@@ -1,0 +1,19 @@
+来源文件：output/backtest_analysis/portfolio_backtest_skew_kurtosis_comparison.csv
+====================================================================================================
+                      Type                  Name  Skewness   Kurtosis
+0                Portfolio           Integer ILP -0.028571   1.822497
+1                Portfolio        Maximum Sharpe -0.028571   1.822497
+2                Portfolio      Minimum Variance  0.347353   3.186920
+3                Portfolio          Equal Weight  0.264582   5.431329
+4             Single Stock        600519.SS 贵州茅台  0.532183   5.534812
+5             Single Stock         000858.SZ 五粮液  0.678182   3.952095
+6             Single Stock        601318.SS 中国平安  0.569136   4.909775
+7             Single Stock        600036.SS 招商银行  0.077896   3.899762
+8             Single Stock        600900.SS 长江电力 -0.002092   3.755197
+9             Single Stock        600276.SS 恒瑞医药  0.328624   3.150250
+10            Single Stock        601012.SS 隆基绿能 -0.821874  13.295100
+11            Single Stock        300750.SZ 宁德时代 -5.080206  94.308787
+12            Single Stock        600887.SS 伊利股份  0.118637   7.513714
+13            Single Stock        002415.SZ 海康威视  0.049279   3.068005
+14  Single Stock Benchmark  Single Stock Average -0.355024  14.338750
+15  Single Stock Benchmark   Single Stock Median  0.098266   4.430935

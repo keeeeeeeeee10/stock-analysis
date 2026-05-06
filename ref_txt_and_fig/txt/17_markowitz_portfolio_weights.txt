@@ -1,0 +1,18 @@
+来源文件：output/markowitz_optimization/markowitz_portfolio_weights.csv
+====================================================================================================
+           Portfolio     Ticker  Name    Weight
+0   Minimum Variance  600900.SS  长江电力  0.624725
+1   Minimum Variance  601318.SS  中国平安  0.000000
+2   Minimum Variance  600519.SS  贵州茅台  0.154359
+3   Minimum Variance  600887.SS  伊利股份  0.173169
+4   Minimum Variance  600036.SS  招商银行  0.047747
+5     Maximum Sharpe  600900.SS  长江电力  1.000000
+6     Maximum Sharpe  601318.SS  中国平安  0.000000
+7     Maximum Sharpe  600519.SS  贵州茅台  0.000000
+8     Maximum Sharpe  600887.SS  伊利股份  0.000000
+9     Maximum Sharpe  600036.SS  招商银行  0.000000
+10      Equal Weight  600900.SS  长江电力  0.200000
+11      Equal Weight  601318.SS  中国平安  0.200000
+12      Equal Weight  600519.SS  贵州茅台  0.200000
+13      Equal Weight  600887.SS  伊利股份  0.200000
+14      Equal Weight  600036.SS  招商银行  0.200000

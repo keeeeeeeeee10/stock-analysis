@@ -1,0 +1,37 @@
+组合回测与盈亏分析报告
+
+回测期：2025-01-01 至 2025-12-31
+无风险利率：1.50%（年化，用于夏普比率）
+
+一、组合构造
+整数规划组合来自任务（四）的实际股数，按 2024-12-31 收盘价作为初始建仓价计算每日市值。
+最大夏普、最小方差和等权重组合来自任务（五）的权重，按固定权重计算每日组合收益率。
+- Integer ILP：600900.SS 100.00%
+- Minimum Variance：600900.SS 62.47%、600887.SS 17.32%、600519.SS 15.44%、600036.SS 4.77%
+- Maximum Sharpe：600900.SS 100.00%
+- Equal Weight：600900.SS 20.00%、601318.SS 20.00%、600519.SS 20.00%、600887.SS 20.00%、600036.SS 20.00%
+
+二、收益与风险指标
+年化收益率最高的是 Equal Weight，年化收益率为 2.79%。
+夏普比率最高的是 Equal Weight，夏普比率为 0.1020。
+最大回撤最小的是 Equal Weight，最大回撤为 7.82%。
+若某组合集中持有同一只股票，则其收益和回撤会高度接近该股票在 2025 年的表现；分散化组合通常会牺牲部分上行收益，但可能改善回撤和波动。
+
+三、盈亏结构
+盈亏比最高的是 Minimum Variance，盈亏比为 1.1078，盈利天数占比为 44.86%。
+盈利天数占比反映上涨日频率，盈亏比反映平均上涨幅度与平均下跌幅度的相对关系，两者需要结合观察。
+
+四、偏度与峰度
+任务（二）中单股票平均偏度为 -0.3550，平均峰度为 14.3387。
+- Integer ILP：偏度 -0.0286，峰度 1.8225。
+- Maximum Sharpe：偏度 -0.0286，峰度 1.8225。
+- Minimum Variance：偏度 0.3474，峰度 3.1869。
+- Equal Weight：偏度 0.2646，峰度 5.4313。
+偏度为正表示右尾更长，可能存在较大的单日正收益；峰度越高表示尾部越厚，极端收益出现概率越高。
+
+五、输出图表
+累计净值曲线：output/backtest_analysis/portfolio_cumulative_net_value.png
+动态回撤曲线：output/backtest_analysis/portfolio_dynamic_drawdown.png
+收益率直方图与核密度曲线：output/backtest_analysis/portfolio_return_hist_kde.png
+按月分组箱线图：output/backtest_analysis/portfolio_monthly_return_boxplot.png
+偏度峰度对比图：output/backtest_analysis/portfolio_vs_single_stock_skew_kurtosis.png

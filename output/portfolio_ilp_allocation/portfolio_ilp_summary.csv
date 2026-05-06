@@ -1,0 +1,2 @@
+Scenario,Scenario Note,Budget,Total Investment,Unused Cash,Expected Annual Profit,Expected Annual Portfolio Return,Portfolio Beta,Beta Limit
+Relaxed subset ILP,原始约束不可行；参考方案允许某些股票不买入，但一旦买入仍不少于 20 手，并继续满足预算和组合 beta 约束。,2000000.0,1997580.0,2420.0,178839.150704324,0.08952790411614255,0.2470912298227247,1.0

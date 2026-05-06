@@ -1,0 +1,8 @@
+来源文件：output/portfolio_ilp_allocation/strict_constraint_diagnostics.csv
+====================================================================================================
+      Ticker  Name  Close Price  CAPM Beta  Minimum Lots  Minimum Investment     Budget  Total Minimum Investment All 5  Minimum-Lot Portfolio Beta  Budget Feasible Under Strict Rule  Beta Feasible At Minimum Lots
+0  600900.SS  长江电力        29.55   0.247091            20             59100.0  2000000.0                       3351360.0                     0.99297                              False                           True
+1  601318.SS  中国平安        52.65   1.135858            20            105300.0  2000000.0                       3351360.0                     0.99297                              False                           True
+2  600519.SS  贵州茅台      1524.00   1.003814            20           3048000.0  2000000.0                       3351360.0                     0.99297                              False                           True
+3  600887.SS  伊利股份        30.18   0.902670            20             60360.0  2000000.0                       3351360.0                     0.99297                              False                           True
+4  600036.SS  招商银行        39.30   1.011186            20             78600.0  2000000.0                       3351360.0                     0.99297                              False                           True

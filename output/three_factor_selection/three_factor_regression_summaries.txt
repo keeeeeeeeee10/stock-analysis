@@ -1,0 +1,304 @@
+Fama-French 三因子回归摘要
+训练期：2022-01-01 至 2024-12-31
+三因子数据来源：本地缓存 output/three_factor_selection/fama_french_factors_daily_2022_2025.csv（若未手动替换，首次缓存来自 Ken French 在线日度数据）
+==========================================================================================
+
+600519.SS 贵州茅台
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.9936
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.395
+Time:                        07:23:21   Log-Likelihood:                 1866.4
+No. Observations:                 698   AIC:                            -3725.
+Df Residuals:                     694   BIC:                            -3707.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0004      0.001     -0.614      0.539      -0.002       0.001
+MKT            0.0181      0.064      0.283      0.777      -0.107       0.143
+SMB           -0.0025      0.095     -0.026      0.979      -0.189       0.184
+HML           -0.1066      0.074     -1.443      0.149      -0.252       0.038
+==============================================================================
+Omnibus:                      113.120   Durbin-Watson:                   1.917
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              750.397
+Skew:                           0.525   Prob(JB):                    1.13e-163
+Kurtosis:                       7.970   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+000858.SZ 五粮液
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.3531
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.787
+Time:                        07:23:21   Log-Likelihood:                 1713.3
+No. Observations:                 698   AIC:                            -3419.
+Df Residuals:                     694   BIC:                            -3400.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0009      0.001     -1.119      0.264      -0.002       0.001
+MKT            0.0474      0.080      0.596      0.551      -0.109       0.204
+SMB            0.0467      0.118      0.395      0.693      -0.185       0.279
+HML           -0.0187      0.092     -0.203      0.839      -0.199       0.162
+==============================================================================
+Omnibus:                       98.352   Durbin-Watson:                   1.964
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              353.429
+Skew:                           0.626   Prob(JB):                     1.79e-77
+Kurtosis:                       6.253   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+601318.SS 中国平安
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.8592
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.462
+Time:                        07:23:21   Log-Likelihood:                 1809.2
+No. Observations:                 698   AIC:                            -3610.
+Df Residuals:                     694   BIC:                            -3592.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -7.176e-05      0.001     -0.104      0.917      -0.001       0.001
+MKT            0.0717      0.069      1.035      0.301      -0.064       0.208
+SMB            0.0410      0.103      0.398      0.691      -0.161       0.243
+HML           -0.0299      0.080     -0.372      0.710      -0.187       0.128
+==============================================================================
+Omnibus:                      118.781   Durbin-Watson:                   2.060
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              691.796
+Skew:                           0.611   Prob(JB):                    6.00e-151
+Kurtosis:                       7.721   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+600036.SS 招商银行
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.3435
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.794
+Time:                        07:23:21   Log-Likelihood:                 1800.3
+No. Observations:                 698   AIC:                            -3593.
+Df Residuals:                     694   BIC:                            -3574.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0006      0.001     -0.897      0.370      -0.002       0.001
+MKT           -0.0117      0.070     -0.166      0.868      -0.150       0.126
+SMB            0.0676      0.104      0.648      0.517      -0.137       0.272
+HML           -0.0564      0.081     -0.695      0.488      -0.216       0.103
+==============================================================================
+Omnibus:                       62.807   Durbin-Watson:                   2.018
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              318.205
+Skew:                           0.175   Prob(JB):                     7.99e-70
+Kurtosis:                       6.289   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+600900.SS 长江电力
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.4129
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.744
+Time:                        07:23:21   Log-Likelihood:                 2105.3
+No. Observations:                 698   AIC:                            -4203.
+Df Residuals:                     694   BIC:                            -4184.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001      0.000      0.236      0.814      -0.001       0.001
+MKT            0.0439      0.045      0.969      0.333      -0.045       0.133
+SMB           -0.0370      0.067     -0.549      0.583      -0.169       0.095
+HML           -0.0061      0.052     -0.116      0.908      -0.109       0.097
+==============================================================================
+Omnibus:                       59.807   Durbin-Watson:                   2.275
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              319.452
+Skew:                          -0.039   Prob(JB):                     4.28e-70
+Kurtosis:                       6.313   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+600276.SS 恒瑞医药
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.6609
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.576
+Time:                        07:23:21   Log-Likelihood:                 1711.9
+No. Observations:                 698   AIC:                            -3416.
+Df Residuals:                     694   BIC:                            -3398.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0006      0.001     -0.794      0.428      -0.002       0.001
+MKT            0.0566      0.080      0.710      0.478      -0.100       0.213
+SMB           -0.0598      0.118     -0.505      0.614      -0.292       0.173
+HML           -0.0786      0.092     -0.852      0.394      -0.260       0.102
+==============================================================================
+Omnibus:                       60.113   Durbin-Watson:                   1.805
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              294.462
+Skew:                           0.158   Prob(JB):                     1.14e-64
+Kurtosis:                       6.166   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+601012.SS 隆基绿能
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.8850
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.448
+Time:                        07:23:21   Log-Likelihood:                 1507.0
+No. Observations:                 698   AIC:                            -3006.
+Df Residuals:                     694   BIC:                            -2988.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0024      0.001     -2.241      0.025      -0.004      -0.000
+MKT            0.0341      0.107      0.319      0.750      -0.176       0.244
+SMB            0.1728      0.159      1.088      0.277      -0.139       0.485
+HML           -0.0753      0.124     -0.609      0.543      -0.318       0.167
+==============================================================================
+Omnibus:                      234.250   Durbin-Watson:                   1.999
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5740.060
+Skew:                          -0.921   Prob(JB):                         0.00
+Kurtosis:                      16.928   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+300750.SZ 宁德时代
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     1.755
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.154
+Time:                        07:23:21   Log-Likelihood:                 1373.5
+No. Observations:                 698   AIC:                            -2739.
+Df Residuals:                     694   BIC:                            -2721.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0013      0.001     -0.991      0.322      -0.004       0.001
+MKT            0.1955      0.129      1.511      0.131      -0.059       0.450
+SMB           -0.1424      0.192     -0.740      0.459      -0.520       0.235
+HML           -0.1539      0.150     -1.028      0.304      -0.448       0.140
+==============================================================================
+Omnibus:                      849.904   Durbin-Watson:                   2.071
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           260268.960
+Skew:                          -5.546   Prob(JB):                         0.00
+Kurtosis:                      96.947   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+600887.SS 伊利股份
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                    0.1903
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.903
+Time:                        07:23:21   Log-Likelihood:                 1900.8
+No. Observations:                 698   AIC:                            -3794.
+Df Residuals:                     694   BIC:                            -3775.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0005      0.001     -0.821      0.412      -0.002       0.001
+MKT           -0.0245      0.061     -0.403      0.687      -0.144       0.095
+SMB            0.0659      0.090      0.729      0.466      -0.112       0.243
+HML           -0.0111      0.070     -0.158      0.875      -0.149       0.127
+==============================================================================
+Omnibus:                      103.901   Durbin-Watson:                   1.946
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1278.767
+Skew:                          -0.049   Prob(JB):                    2.09e-278
+Kurtosis:                       9.630   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
+
+002415.SZ 海康威视
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_Excess   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.6657
+Date:                Wed, 06 May 2026   Prob (F-statistic):              0.573
+Time:                        07:23:21   Log-Likelihood:                 1735.2
+No. Observations:                 698   AIC:                            -3462.
+Df Residuals:                     694   BIC:                            -3444.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0011      0.001     -1.492      0.136      -0.003       0.000
+MKT           -0.0585      0.077     -0.759      0.448      -0.210       0.093
+SMB            0.0752      0.115      0.657      0.512      -0.150       0.300
+HML           -0.1113      0.089     -1.248      0.212      -0.286       0.064
+==============================================================================
+Omnibus:                       41.169   Durbin-Watson:                   1.888
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              150.518
+Skew:                          -0.020   Prob(JB):                     2.07e-33
+Kurtosis:                       5.275   Cond. No.                         156.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+==========================================================================================
